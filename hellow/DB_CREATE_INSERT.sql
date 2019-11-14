@@ -1,3 +1,7 @@
+--	нужно создать юзера bloger
+--	create user bloger identified by "1234";
+--	Grant connect, resource to bloger;
+
 drop table posts CASCADE CONSTRAINTS;
 create table posts
 (
